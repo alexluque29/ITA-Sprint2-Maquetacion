@@ -1,1 +1,84 @@
+
+//Modificación colores primario y secundario
+$primary: #5265E1;
+$secondary: #FA5959;
+$light: #f7f7f7;
+$link-dark: black;
+$nav-tabs-border-color: red;
+
+h3{
+    font-weight: bold;
+}
+p{
+    font-family: sans-serif;
+    font-size: small;
+    color:black;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.nav-item{
+    font-family: sans-serif;
+    font-size: x-small;
+    letter-spacing: 0.1rem;
+}
+.nav-link{
+    color: black;
+}
+.nav-link2{
+    color: black;
+    text-decoration: none;
+    font-size: small;
+}
+.nav.nav-tabs{
+    border-bottom: 1px solid rgb(205, 202, 202);
+    font-family: sans-serif;
+    font-size: small;
+}
+.nav-item1{
+    border-bottom: 3px solid red
+}
+
+.btn.btn-secondary{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: x-small;
+    letter-spacing: 0.1rem;
+    color: antiquewhite
+}
+
+.btn.btn-primary{
+    font-family: sans-serif;
+    font-size: small;
+    color: white;
+}
+.btn.btn-light{
+    font-family: sans-serif;
+    font-size: small;
+    color: black;
+}
+.navbar-toggler{
+    background-color: #FA5959;
+}
+
+.logo1{
+    z-index: 2;
+}
+.logo2{
+    z-index: 2;
+}
+.placa1{
+    width: 590px;
+    top: -320px;
+    left: 150px;
+}
+.placa2{   
+    width: 550px;
+    top: -230px;
+}
+.puntos{
+    font-weight: bold;
+    letter-spacing: 0.3rem
+}
+
 @import "./node_modules/bootstrap/scss/bootstrap.scss"; 
