@@ -9,6 +9,8 @@
 </head>
 <body>
   <main class="container d-flex flex-column align-item-center justify-content-center">
+
+    <!-- Sección Nav superiorinferior-->
     <nav class="navbar navbar-expand-lg navbar-light mt-4">
       <div class="container">
         <a href="#"><img src="./recursos/imagenes/logo-bookmark.svg"></a>
@@ -19,13 +21,13 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link mx-3" href="#">FEATURES</a>
+              <a class="enlasup nav-link mx-3" href="#">FEATURES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-3" href="#">PRICING</a>
+              <a class="enlasup nav-link mx-3" href="#">PRICING</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-3" href="#">CONTACT</a>
+              <a class="enlasup nav-link mx-3" href="#">CONTACT</a>
             </li>
             <li class="nav-item">
               <button class="btn btn-secondary ms-4" type="button">Login</button>
@@ -50,7 +52,7 @@
           <h3 class="mb-4"> A Simple Bookmark Manager</h3>
           <p class="mb-4">A clean and simple interface to organize yours favourite websites. Open a new browser tab and
             see your sites load instantly. Try it for free.</p>
-          <button type="button" class="btn btn-primary" data-bs-toggle="button">Get it on Chrome</button>
+          <button type="button" class="btn btn-primarychrome" data-bs-toggle="button">Get it on Chrome</button>
           <button type="button" class="btn btn-light" data-bs-toggle="button">Get it on Firefox</button>
         </div>
       </div>
@@ -121,7 +123,7 @@
               <h5 class="card-title">Add to Chrome</h5>
               <p class="card-text">Minimun version 6.2</p>
               <p class="puntos">..................</p>
-              <a href="#" class="btn btn-primary">Add & Install extension</a>
+              <a href="#" class="btn btn-primarylogos">Add & Install extension</a>
             </div>
           </div>
         </div>
@@ -132,7 +134,7 @@
               <h5 class="card-title">Add to Firefox</h5>
               <p class="card-text">Minimun version 5.5</p>
               <p class="puntos">..................</p>
-              <a href="#" class="btn btn-primary">Add & Install extension</a>
+              <a href="#" class="btn btn-primarylogos">Add & Install extension</a>
             </div>
           </div>
         </div>
@@ -143,7 +145,7 @@
               <h5 class="card-title">Add to Opera</h5>
               <p class="card-text">Minimum version 4.6</p>
               <p class="puntos">..................</p>
-              <a href="#" class="btn btn-primary">Add & Install extension</a>
+              <a href="#" class="btn btn-primarylogos">Add & Install extension</a>
             </div>
           </div>
         </div>
@@ -227,10 +229,56 @@
         <div class="container d-flex justify-content-center" style="margin-top: 30px" ;>
           <button type="button" class="btn btn-primary" data-bs-toggle="button">More Info</button>
         </div>
+      </div>
+    </div>
+  </div>
+  <!-- Sección Validación -->
+  <footer class="container bg-primary" style="margin-top: 100px" ;>
+    <div class="row d-flex align-items-center justify-content-center">
+      <div class="col-12 col-lg-6 py-3 text-center">
+        <p class="textfooter"><b>35.000+ ALREADY JOINED</b></p>
+        <h5 class="textfooter2"><b>Stay up-to-date with what we're doing</b></h5>
+        <form class="d-flex align-items-baseline justify-content-center p-3 was-validated">
+          <div class="mb-3">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email adress"
+              required>
+            <div class="valid-feedback" style="color:rgb(16, 255, 28);">Valid</div>
+            <div class="invalid-feedback" style="color:yellow;">Please fill out this field</div>
+          </div>
+          <div class="mb-3 form-check"></div>
+          <button type="submit" class="btncontact btn-secondary">Contact Us</button>
+        </form>
+      </div>
+    </div>
+  </footer>
 
+  <!-- Sección Nav inferior-->
+  <nav class="container navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container row align-items-baseline justify-content-center">
+      <div class="col-12 col-md-3 d-flex justify-content-end">
+        <a href="#"><img src="./recursos/imagenes/logo-white.svg"></a>
+      </div>
+      <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
+        <ul class="navbar-nav  align-items-center">
+        <li class="col-12 col-md-auto nav-item">
+          <a class="nav-linkinf mx-3" href="#">FEATURES</a>
+        </li>
+        <li class="col-12 col-md-auto nav-item">
+          <a class="nav-linkinf mx-3" href="#">PRICING</a>
+        </li>
+        <li class="col-12 col-md-auto nav-item">
+          <a class="nav-linkinf mx-3" href="#">CONTACT</a>
+        </li>
+        </ul>
       </div>
     </div>
 
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Sección iconos RRSS-->
+    <div class="iconos d-flex align-items-center gap-4">
+      <a class="fb" href="#"><img src="./recursos/imagenes/icon-facebook.svg"></a>
+      <a class="tw me-3" href="#"><img src="./recursos/imagenes/icon-twitter.svg"></a>
+    </div>
+  </nav>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

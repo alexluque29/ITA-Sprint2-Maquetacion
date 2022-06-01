@@ -1,84 +1,172 @@
-
 //Modificación colores primario y secundario
-$primary: #5265E1;
-$secondary: #FA5959;
+$primary: #5265e1;
+$secondary: #fa5959;
 $light: #f7f7f7;
 $link-dark: black;
 $nav-tabs-border-color: red;
 
-h3{
-    font-weight: bold;
+h3 {
+  font-weight: bold;
 }
-p{
-    font-family: sans-serif;
-    font-size: small;
-    color:black;
-    margin-top: 5em;
-    margin-bottom: 5em;
+p {
+  font-family: sans-serif;
+  font-size: small;
+  color: black;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
-
-.nav-item{
-    font-family: sans-serif;
-    font-size: x-small;
-    letter-spacing: 0.1rem;
+.textfooter {
+  color: white;
+  letter-spacing: 0.2rem;
+  font-family: sans-serif;
+  font-size: x-small;
 }
-.nav-link{
-    color: black;
-}
-.nav-link2{
-    color: black;
-    text-decoration: none;
-    font-size: small;
-}
-.nav.nav-tabs{
-    border-bottom: 1px solid rgb(205, 202, 202);
-    font-family: sans-serif;
-    font-size: small;
-}
-.nav-item1{
-    border-bottom: 3px solid red
+.textfooter2 {
+  color: white;
+  letter-spacing: 0.1rem;
+  font-family: sans-serif;
 }
 
-.btn.btn-secondary{
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: x-small;
-    letter-spacing: 0.1rem;
-    color: antiquewhite
+.nav-item {
+  font-family: sans-serif;
+  font-size: x-small;
+  letter-spacing: 0.1rem;
+}
+.nav-link {
+  color: black;
 }
 
-.btn.btn-primary{
-    font-family: sans-serif;
-    font-size: small;
-    color: white;
+.nav-link:hover {
+  color: red;
 }
-.btn.btn-light{
-    font-family: sans-serif;
-    font-size: small;
-    color: black;
+.nav-link2 {
+  color: black;
+  text-decoration: none;
+  font-size: small;
 }
-.navbar-toggler{
-    background-color: #FA5959;
+.nav-link2:hover {
+  color: red;
+  text-decoration: none;
+  font-size: small;
+}
+.nav.nav-tabs {
+  border-bottom: 1px solid rgb(205, 202, 202);
+  font-family: sans-serif;
+  font-size: small;
+}
+.nav-item1 {
+  border-bottom: 3px solid red;
+}
+.btn.btn-primary {
+  font-family: sans-serif;
+  font-size: small;
+  color: white;
+}
+.btn.btn-primarylogos {
+  font-family: sans-serif;
+  font-size: small;
+  background-color: #5265e1;
+  color: white;
+}
+.btn.btn-primarylogos:hover {
+  border: 2px solid;
+  border-color: blue;
+  color: blue;
+  background-color: white;
+}
+.btn.btn-primarychrome {
+  font-family: sans-serif;
+  font-size: small;
+  background-color: #5265e1;
+  color: white;
+}
+.btn.btn-primarychrome:hover {
+  border: 2px solid;
+  border-color: blue;
+  color: blue;
+  background-color: white;
+}
+.btn.btn-primary:hover {
+  border: 2px solid;
+  border-color: red;
+  color: red;
+  background-color: white;
+}
+.btn.btn-secondary:hover {
+  border: 2px solid;
+  border-color: red;
+  color: red;
+  background-color: white;
+}
+.btn.btn-secondary {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: x-small;
+  letter-spacing: 0.1rem;
+  color: antiquewhite;
+}
+.btncontact.btn-secondary {
+  font-size: small;
+  color: white;
+}
+.btncontact.btn-secondary:hover {
+  border: 2px solid;
+  border-color: red;
+  color: red;
+  background-color: white;
 }
 
-.logo1{
-    z-index: 2;
+.btn.btn-light {
+  font-family: sans-serif;
+  font-size: small;
+  color: black;
 }
-.logo2{
-    z-index: 2;
+.btn.btn-light:hover {
+  border: 2px solid;
+  border-color: black;
+  color: black;
+  background-color: white;
 }
-.placa1{
-    width: 590px;
-    top: -320px;
-    left: 150px;
+.accordion-button:hover {
+  color: red;
 }
-.placa2{   
-    width: 550px;
-    top: -230px;
-}
-.puntos{
-    font-weight: bold;
-    letter-spacing: 0.3rem
+.navbar-toggler {
+  background-color: #fa5959;
 }
 
-@import "./node_modules/bootstrap/scss/bootstrap.scss"; 
+.logo1 {
+  z-index: 2;
+}
+.logo2 {
+  z-index: 2;
+}
+.placa1 {
+  width: 590px;
+  top: -320px;
+  left: 150px;
+}
+.placa2 {
+  width: 550px;
+  top: -230px;
+}
+.puntos {
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+}
+.nav-linkinf {
+  color: white;
+  text-decoration: none;
+}
+.nav-linkinf:hover {
+  color: red;
+  text-decoration: none;
+}
+.fb:hover {
+  color: red;
+}
+.container-nav {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";

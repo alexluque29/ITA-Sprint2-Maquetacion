@@ -10,6 +10,19 @@ p {
   margin-bottom: 5em;
 }
 
+.textfooter {
+  color: white;
+  letter-spacing: 0.2rem;
+  font-family: sans-serif;
+  font-size: x-small;
+}
+
+.textfooter2 {
+  color: white;
+  letter-spacing: 0.1rem;
+  font-family: sans-serif;
+}
+
 .nav-item {
   font-family: sans-serif;
   font-size: x-small;
@@ -20,8 +33,18 @@ p {
   color: black;
 }
 
+.nav-link:hover {
+  color: red;
+}
+
 .nav-link2 {
   color: black;
+  text-decoration: none;
+  font-size: small;
+}
+
+.nav-link2:hover {
+  color: red;
   text-decoration: none;
   font-size: small;
 }
@@ -36,6 +59,54 @@ p {
   border-bottom: 3px solid red;
 }
 
+.btn.btn-primary {
+  font-family: sans-serif;
+  font-size: small;
+  color: white;
+}
+
+.btn.btn-primarylogos {
+  font-family: sans-serif;
+  font-size: small;
+  background-color: #5265E1;
+  color: white;
+}
+
+.btn.btn-primarylogos:hover {
+  border: 2px solid;
+  border-color: blue;
+  color: blue;
+  background-color: white;
+}
+
+.btn.btn-primarychrome {
+  font-family: sans-serif;
+  font-size: small;
+  background-color: #5265E1;
+  color: white;
+}
+
+.btn.btn-primarychrome:hover {
+  border: 2px solid;
+  border-color: blue;
+  color: blue;
+  background-color: white;
+}
+
+.btn.btn-primary:hover {
+  border: 2px solid;
+  border-color: red;
+  color: red;
+  background-color: white;
+}
+
+.btn.btn-secondary:hover {
+  border: 2px solid;
+  border-color: red;
+  color: red;
+  background-color: white;
+}
+
 .btn.btn-secondary {
   font-family: sans-serif;
   font-weight: bold;
@@ -44,16 +115,33 @@ p {
   color: antiquewhite;
 }
 
-.btn.btn-primary {
-  font-family: sans-serif;
+.btncontact.btn-secondary {
   font-size: small;
   color: white;
+}
+
+.btncontact.btn-secondary:hover {
+  border: 2px solid;
+  border-color: red;
+  color: red;
+  background-color: white;
 }
 
 .btn.btn-light {
   font-family: sans-serif;
   font-size: small;
   color: black;
+}
+
+.btn.btn-light:hover {
+  border: 2px solid;
+  border-color: black;
+  color: black;
+  background-color: white;
+}
+
+.accordion-button:hover {
+  color: red;
 }
 
 .navbar-toggler {
@@ -82,6 +170,25 @@ p {
 .puntos {
   font-weight: bold;
   letter-spacing: 0.3rem;
+}
+
+.nav-linkinf {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-linkinf:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.fb:hover {
+  color: red;
+}
+
+.container-nav {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 /*!
